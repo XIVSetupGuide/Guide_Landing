@@ -8,7 +8,7 @@ hero:
     src: /images/home-page-feature.jpg
 features:
   - icon:
-      src: /images/home-page-start.png
+      src: /images/home-page-start.jpg
       height: 100%
       width: 100%
     link: "https://start.xivsetup.guide/"
