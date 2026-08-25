@@ -36,14 +36,14 @@ features:
     title: "Installing/Configuring Lightless Sync"
     details: "Installing and setting up Lightless Sync so you can see other people's mods"
   - icon:
-      src: /images/home-page-mods.png
+      src: /images/home-page-mods.jpg
       height: 100%
       width: 100%
     link: "https://mods.xivsetup.guide/"
     title: "Finding/Installing Mods"
     details: "How to find/install/configure mods"
   - icon:
-      src: /images/home-page-plugins.png
+      src: /images/home-page-plugins.jpg
       height: 100%
       width: 100%
     link: "https://plugins.xivsetup.guide/"
