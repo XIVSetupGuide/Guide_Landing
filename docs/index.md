@@ -58,43 +58,27 @@ const showPopup = ref(true)
 </script>
 
 <Teleport to="body">
-  <Transition name="guide-popup">
-    <div
-      v-if="showPopup"
-      class="guide-popup-overlay"
-      @click.self="showPopup = false"
-    >
-      <div class="guide-popup">
-        <button
-          class="guide-popup-close"
-          @click="showPopup = false"
-          aria-label="Close"
-        >
-          ×
-        </button>
-        <h2>Welcome to the site! Please select what you're here for (or close the window to select manually)</h2>
-        <p>Choose an option below to get started</p>
-        <div class="guide-popup-options">
-          <a href="https://start.xivsetup.guide/" class="guide-popup-option">
-            I know nothing about XIV and want to install/set it up
-          </a>
-          <a href="https://xivlauncher.xivsetup.guide/" class="guide-popup-option">
-            I have XIV installed but am using the original launcher
-          </a>
-          <a href="https://penumbra.xivsetup.guide/" class="guide-popup-option">
-            I'm already using XIVLauncher and want to set up modding plugins
-          </a>
-          <a href="https://lightless.xivsetup.guide/" class="guide-popup-option">
-            I already set up the modding plugins and I want to set up Lightless (the sync plugin)
-          </a>
-          <a href="https://mods.xivsetup.guide/" class="guide-popup-option">
-            I'm interested in finding mods
-          </a>
-          <a href="https://plugins.xivsetup.guide/" class="guide-popup-option">
-            I'm interested in other recommended plugins
-          </a>
-        </div>
+  <div
+    v-if="showPopup"
+    class="guide-popup-overlay"
+    @click.self="showPopup = false"
+  >
+    <div class="guide-popup">
+      <button
+        class="guide-popup-close"
+        @click="showPopup = false"
+        aria-label="Close"
+      >×</button>
+      <h2>Welcome to the site! Please select what you're here for (or close the window to select manually)</h2>
+      <p>Choose an option below to get started</p>
+      <div class="guide-popup-options">
+        <a href="https://start.xivsetup.guide/" class="guide-popup-option">I know nothing about XIV and want to install/set it up</a>
+        <a href="https://xivlauncher.xivsetup.guide/" class="guide-popup-option">I have XIV installed but am using the original launcher</a>
+        <a href="https://penumbra.xivsetup.guide/" class="guide-popup-option">I'm already using XIVLauncher and want to set up modding plugins</a>
+        <a href="https://lightless.xivsetup.guide/" class="guide-popup-option">I already set up the modding plugins and I want to set up Lightless (the sync plugin)</a>
+        <a href="https://mods.xivsetup.guide/" class="guide-popup-option">I'm interested in finding mods</a>
+        <a href="https://plugins.xivsetup.guide/" class="guide-popup-option">I'm interested in other recommended plugins</a>
       </div>
     </div>
-  </Transition>
+  </div>
 </Teleport>
