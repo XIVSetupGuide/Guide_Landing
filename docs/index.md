@@ -42,10 +42,10 @@ features:
     link: "https://mods.xivsetup.guide/"
     title: "Finding/Installing Mods"
     details: "How to find/install/configure mods"
-  -	icon:
-    src: /images/home-page-plugins.png
-    height: 100%
-    width: 100%
+  - icon:
+      src: /images/home-page-plugins.png
+      height: 100%
+      width: 100%
     link: "https://plugins.xivsetup.guide/"
     title: "Finding/Installing Plugins"
     details: "How to find/install/configure plugins"
