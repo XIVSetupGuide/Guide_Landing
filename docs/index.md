@@ -42,4 +42,11 @@ features:
     link: "https://switch.hacks.guide/"
     title: "Switch Hacks Guide"
     details: "A complete guide to Switch custom firmware, from stock to Atmosphere."
+  - icon:
+      src: /images/home-page-test.png
+      height: 100%
+      width: 100%
+    link: "https://test.xivsetup.guide/"
+    title: "Test Guide"
+    details: "Proof of Concept test guide used to learn how stuff works here"
 ---
