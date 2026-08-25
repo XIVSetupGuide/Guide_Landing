@@ -15,33 +15,40 @@ features:
     title: "FFXIV Install Guide"
     details: "A complete guide to installing Final Fantasy XIV, from platform selection to installing."
   - icon:
-      src: /images/home-page-wiiu.jpg
+      src: /images/home-page-xivlauncher.jpg
       height: 100%
       width: 100%
-    link: "https://wiiu.hacks.guide/"
-    title: "Wii U Hacks Guide"
-    details: "A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock to Aroma custom firmware."
+    link: "https://xivlauncher.xivsetup.guide/"
+    title: "XIVLauncher Guide"
+    details: "Guidance on how to install/setup/configure the third party launcher, XIVLauncher."
   - icon:
-      src: /images/home-page-vita.jpg
+      src: /images/home-page-penumbra.jpg
       height: 100%
       width: 100%
-    link: "https://vita.hacks.guide/"
-    title: "Vita Hacks Guide"
-    details: "A complete guide to PS Vita (TV) custom firmware, from stock to Ensō."
+    link: "https://penumbra.xivsetup.guide/"
+    title: "Modding/Plugins Guide"
+    details: "Setting up your Modding Plugins/Tools/etc for FFXIV"
   - icon:
-      src: /images/home-page-wii.jpg
+      src: /images/home-page-lightless.jpg
       height: 100%
       width: 100%
-    link: "https://wii.hacks.guide/"
-    title: "Wii Hacks Guide"
-    details: "The complete guide to modding your Wii, vWii, and Wii mini."
+    link: "https://lightless.xivsetup.guide/"
+    title: "Installing/Configuring Lightless Sync"
+    details: "Installing and setting up Lightless Sync so you can see other people's mods"
   - icon:
-      src: /images/home-page-switch.png
+      src: /images/home-page-mods.png
       height: 100%
       width: 100%
-    link: "https://switch.hacks.guide/"
-    title: "Switch Hacks Guide"
-    details: "A complete guide to Switch custom firmware, from stock to Atmosphere."
+    link: "https://mods.xivsetup.guide/"
+    title: "Finding/Installing Mods"
+    details: "How to find/install/configure mods"
+  -	icon:
+    src: /images/home-page-plugins.png
+    height: 100%
+    width: 100%
+    link: "https://plugins.xivsetup.guide/"
+    title: "Finding/Installing Plugins"
+    details: "How to find/install/configure plugins"
 ---
 
 <script setup>
