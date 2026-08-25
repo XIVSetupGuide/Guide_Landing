@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Hacks.Guide"
+title: "XIVSetup.Guide"
 hero:
-  text: "Hacks.Guide"
-  tagline: "Complete guides to homebrew and custom firmware for various devices."
+  text: "XIVSetup.Guide"
+  tagline: "Complete guides to setting up FFXIV, the launcher, plugins, and more!"
   image:
     src: /images/home-page-feature.jpg
 features:
