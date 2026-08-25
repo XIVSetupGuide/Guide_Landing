@@ -210,3 +210,104 @@ input[type="radio"] {
   transition: unset
 }
 /* hacks-guide change end: disable transition on homepage navbar */
+
+.guide-popup-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+}
+
+.guide-popup {
+  position: relative;
+
+  width: min(600px, calc(100vw - 40px));
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+
+  padding: 32px;
+
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 16px;
+
+  background: var(--vp-c-bg);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+
+  text-align: center;
+}
+
+.guide-popup h2 {
+  margin: 0 0 8px;
+  padding: 0;
+  border: 0;
+
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.guide-popup p {
+  margin: 0 0 24px;
+  color: var(--vp-c-text-2);
+}
+
+.guide-popup-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+
+  padding: 4px;
+
+  border: 0;
+  background: transparent;
+
+  color: var(--vp-c-text-2);
+  font-size: 28px;
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+.guide-popup-close:hover {
+  color: var(--vp-c-text-1);
+}
+
+.guide-popup-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.guide-popup-option {
+  display: block;
+
+  width: 100%;
+  padding: 14px 18px;
+
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 10px;
+
+  background: var(--vp-c-brand-1);
+  color: white !important;
+
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none !important;
+
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
+}
+
+.guide-popup-option:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-2px);
+}
