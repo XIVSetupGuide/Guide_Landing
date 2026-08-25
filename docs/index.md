@@ -8,12 +8,12 @@ hero:
     src: /images/home-page-feature.jpg
 features:
   - icon:
-      src: /images/home-page-3ds.jpg
+      src: /images/home-page-start.jpg
       height: 100%
       width: 100%
-    link: "https://3ds.hacks.guide/"
-    title: "3DS Hacks Guide"
-    details: "A complete guide to 3DS (and 2DS) custom firmware, from stock to boot9strap."
+    link: "https://start.xivsetup.guide/"
+    title: "FFXIV Install Guide"
+    details: "A complete guide to installing Final Fantasy XIV, from platform selection to installing."
   - icon:
       src: /images/home-page-wiiu.jpg
       height: 100%
@@ -42,13 +42,6 @@ features:
     link: "https://switch.hacks.guide/"
     title: "Switch Hacks Guide"
     details: "A complete guide to Switch custom firmware, from stock to Atmosphere."
-  - icon:
-      src: /images/home-page-test.png
-      height: 100%
-      width: 100%
-    link: "https://start.xivsetup.guide/"
-    title: "FFXIV Install Guide"
-    details: "Proof of Concept test guide used to learn how stuff works here"
 ---
 
 <script setup>
