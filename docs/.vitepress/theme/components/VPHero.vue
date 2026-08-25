@@ -9,7 +9,7 @@
 import { type Ref, inject } from 'vue'
 import { withBase } from 'vitepress'
 import type { DefaultTheme } from 'vitepress/theme'
-import VPButton from 'vitepress/theme'
+import { VPButton } from 'vitepress/theme'
 
 export interface HeroAction {
   theme?: 'brand' | 'alt'
@@ -32,7 +32,7 @@ const heroImageSlotExists = inject('hero-image-slot-exists') as Ref<boolean>
 
 <template>
 <!-- hacks-guide change start: Expand hero image across the entire screen -->
-  <div v-if="typeof image === 'string' || 'src' in image"
+  <div v-if="image && (typeof image === 'string' || 'src' in image)"
     class="hacks-guide-hero-image"
     v-bind:style="{ 'background-image': 'linear-gradient(rgba(0, 0, 0, 0.5) 50%, var(--vp-c-bg)), url(' + withBase(typeof image === 'string' ? image : image.src) + ')' }"
   >
