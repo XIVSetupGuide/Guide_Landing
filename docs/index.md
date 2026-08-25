@@ -46,7 +46,7 @@ features:
       src: /images/home-page-test.png
       height: 100%
       width: 100%
-    link: "https://test.xivsetup.guide/"
-    title: "Test Guide"
+    link: "https://start.xivsetup.guide/"
+    title: "FFXIV Install Guide"
     details: "Proof of Concept test guide used to learn how stuff works here"
 ---
