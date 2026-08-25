@@ -9,10 +9,8 @@ hero:
 features:
   - icon:
       src: /images/home-page-start.jpg
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    display: block;
+      height: 100%
+      width: 100%
     link: "https://start.xivsetup.guide/"
     title: "FFXIV Install Guide"
     details: "A complete guide to installing Final Fantasy XIV, from platform selection to installing."
